@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=/Users/user/git/projects/lessons/drivers/postgresql-42.1.1.jar -DgroupId=postgresql -DartifactId=postgresql -Dversion=42.1.1 -Dpackaging=jar
