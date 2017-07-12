@@ -1,15 +1,27 @@
 package ru.lessons;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.SpringApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.*;
 
+@Configuration 
 @ComponentScan
-@EnableAutoConfiguration 
 public class Application {
+	
+	@Bean
+	Cal calc(){
+		return new Cal(){
+			public int calculate(int a, int b){
+				return a+b;
+			}
+		};
+	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		ApplicationContext context =
+			    new AnnotationConfigApplicationContext(Application.class);
+		
+		Print printer = context.getBean(Print.class);
+		printer.printMes(2,4);
 	}
 
 }
