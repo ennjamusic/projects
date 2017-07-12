@@ -1,0 +1,14 @@
+package ru.lessons;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class calc {
+	private int result;
+
+	public int add (int a, int b){
+		this.result = a+b;
+		return this.result;
+	}
+
+}

@@ -1,0 +1,22 @@
+package ru.lessons;
+
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Component
+public class Print {
+	private int a;
+	private int b;
+	
+	Print(int a, int b){
+		this.a = a;
+		this.b = b;
+	}
+	
+	@Autowired
+	private Cal calc;
+	
+	public void printMes(){
+		System.out.println(this.calc.calculate(this.a, this.b));
+	}
+}
