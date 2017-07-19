@@ -2,13 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="ru.lessons"/>
 		</list>
 		<list key="name">
-			<item value="Maven-Spring-Lessons"/>
 		</list>
 		<list key="artifactId">
-			<item value="lessons"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -19,7 +16,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.0.0"/>
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
@@ -29,6 +26,7 @@
 		<item value="531" key="height"/>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -40,6 +38,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\user\git\projects\mail-registration\src\site\apt\index.html"/>
+			<item value="C:\Users\user\git\projects\lessons\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -52,10 +52,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ru.registration.mail"/>
 		</list>
 		<list key="groupId">
+			<item value="ru.registration.mail"/>
 		</list>
 		<list key="artifactId">
+			<item value="mail-registration"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,6 +69,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="1.0.0"/>
+			<item value="1.01"/>
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>

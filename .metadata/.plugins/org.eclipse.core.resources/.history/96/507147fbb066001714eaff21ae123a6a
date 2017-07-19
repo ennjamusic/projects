@@ -1,5 +1,0 @@
-package ru.lessons;
-
-public interface print {
-	void printMes;
-}

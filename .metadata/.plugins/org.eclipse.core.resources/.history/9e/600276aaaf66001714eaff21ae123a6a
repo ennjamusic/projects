@@ -1,7 +1,0 @@
-package ru.lessons;
-
-import org.springframework.stereotype.Component;
-
-public class calc {
-
-}
