@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Выберите действие</title>
+		<script type="text/javascript" src="/src/main/webapp/js/adding.js"></script>
+		<script type="text/javascript" src="/src/main/webapp/js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+		<div class="main_wrapper">
+			<div class="header"></div>
+			<div class="content">
+				<a href="add.html" class="link" id="1">Добавить почту</a>
+				<a href="login.html" class="link" id="2">Зайти в почту</a>
+			</div>
+		</div>
+	</body>
+</html>

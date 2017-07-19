@@ -1,15 +1,16 @@
-$("document").ready(function(){
+$(document).ready(function(){
 	$(".button").on('click', function(){
 		var name = $(".name").val();
 		var pass = $(".pass").val();
-		if(name&pass!=null){
+		alert(name+' ^ '+pass);
+		if(name!=''&pass!=''){
 			var data = "name="+name+"&pass="+pass;	
 			$.ajax({
 				type:'POST',
 				data: data,
-				url:"",
+				url:"/AddEmail/",
 				success: function (result){
-					alert("Поптыка "+result);
+					alert("Попытка "+result);
 				}
 			});
 		}

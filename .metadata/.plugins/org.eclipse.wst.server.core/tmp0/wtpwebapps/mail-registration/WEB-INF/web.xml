@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddEmail</servlet-name>
+  	<display-name>AddEmail</display-name>
+  	<description></description>
+  	<servlet-class>AddEmail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddEmail</servlet-name>
+  	<url-pattern>/AddEmail</url-pattern>
+  </servlet-mapping>
 </web-app>

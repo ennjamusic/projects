@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Добавить почту</title>
+		<script type="text/javascript" src="/js/adding.js"></script>
+		<script type="text/javascript" src="/js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+		<div class="main_wrapper">
+			<input type="text" class="name" value="Введите свой e-mail"/>
+			<input type="password" class="pass" value="Пароль"/>
+			<button class="button">Добавить</button>
+		</div>
+	</body>
+</html>
