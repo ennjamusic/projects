@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Выберите действие</title>
+		<script type="text/javascript" src="/js/links.js"></script>
+		<script type="text/javascript" src="/js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+		<div class="main_wrapper">
+			<div class="header"></div>
+			<div class="content">
+				<span class="action" id="1">Добавить почту</span>
+				<span class="action" id="2">Зайти в почту</span>
+			</div>
+		</div>
+	</body>
+</html>

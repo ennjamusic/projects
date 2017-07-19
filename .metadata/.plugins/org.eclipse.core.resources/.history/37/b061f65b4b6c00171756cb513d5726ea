@@ -1,0 +1,13 @@
+$("document").ready(function(){
+	$(".button").on('click', function(){
+		var data = 	;
+		$.ajax({
+			type:'POST';
+			data: data;
+			url:"";
+			success: function (result){
+				alert("Поптыка "+result);
+			}
+		});
+	});
+});

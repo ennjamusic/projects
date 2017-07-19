@@ -1,0 +1,8 @@
+$("document").ready(function (){
+	$(".action").on('click', function(){
+		switch (number){
+			case 1: window.location.href = "add.html";
+			case 2: window.location.href = "login.html";
+		}
+	});
+});

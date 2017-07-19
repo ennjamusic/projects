@@ -1,0 +1,14 @@
+$("document").ready(function(){
+	$(".button").on('click', function(){
+		var data = "name="+$('.name').value+"&";
+		
+		$.ajax({
+			type:'POST';
+			data: data;
+			url:"";
+			success: function (result){
+				alert("Поптыка "+result);
+			}
+		});
+	});
+});

@@ -1,0 +1,16 @@
+$("document").ready(function(){
+	$(".button").on('click', function(){
+		var name = $(".name").val();
+		var pass = $(".pass").val();
+		var data = "name="+$('.name').value+"&"+"pass="+$(".pass").value;
+		
+		$.ajax({
+			type:'POST',
+			data: data,
+			url:"",
+			success: function (result){
+				alert("Поптыка "+result);
+			}
+		});
+	});
+});
