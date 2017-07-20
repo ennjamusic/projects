@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$.ajax({
 				type:'POST',
 				data: data,
-				url:"/AddEmail/",
+				url:"/mail-registration/AddEmailTo",
 				success: function (result){
 					alert("Попытка "+result);
 				}
